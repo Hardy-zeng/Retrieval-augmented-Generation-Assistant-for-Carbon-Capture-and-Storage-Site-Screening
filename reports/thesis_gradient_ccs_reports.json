@@ -1,0 +1,1584 @@
+{
+    "gradient_candidates_evaluation": [
+        {
+            "interval_id": "Tarim_Target_6",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_6",
+                "basin": "Tarim Basin",
+                "top_depth": 473.0,
+                "bottom_depth": 535.0,
+                "thickness": 63.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.8728,
+                "petrophysical_signatures": {
+                    "avg_GR": 65.558,
+                    "avg_RHOB": 2.468,
+                    "avg_NPHI": 0.154,
+                    "avg_PEF": 3.911,
+                    "avg_DTC": 69.208
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Robust\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-High\nReason: The machine learning prediction confidence of 0.8728 is strong, and the petrophysical log suite is internally consistent with a viable reservoir: a moderate GR (65.558 API) suggests a mixed lithology, a robust density (avg_RHOB: 2.468 g/cc) and neutron porosity (avg_NPHI: 0.154 v/v) indicate competent rock with appreciable pore space, and a low DTC (69.208 \u00b5s/ft) supports rigidity. The primary volumetric constraint is the thickness proxy of 63.0 samples, which converts to approximately 9.6 meters, marginally below the 10-meter baseline threshold of 65 samples but not a severe volumetric constraint. Containment assessment is favorable for the caprock, as the retrieved context specifically highlights the Cambrian gypsum-salt rock in the Tarim Basin as a key regional seal, with a quantitative evaluation system (C-value) established for its sealing capacity [Source: Tarim Carbonate Caprock Study, Page: 1, 11]. However, structural risk is elevated to moderate due to the documented presence of deep, reactivated strike-slip fault zones (e.g., No. 1, 5, 7) with multiple phases of activity from the Paleozoic to the Neogene, which could act as potential leakage pathways [Source: Central Tarim Thermal History, Page: 1, 11]. The synergy of a high-confidence reservoir indicator, a proven regional seal, and a quantifiable, mappable fault risk justifies advancement for detailed scrutiny.\nRecommendation: Immediately proceed with high-resolution 3D seismic reprocessing focused on fault imaging and seal continuity mapping to constrain the specific geometry and sealing capacity of the identified strike-slip systems relative to the target interval. Concurrently, initiate a detailed petrophysical re-evaluation using advanced logs (e.g., NMR, dipole sonic) to precisely quantify net pay and storage capacity within the ~9.6m interval. This target should be advanced to the detailed feasibility study phase due to the strong ML signal and the presence of a top-tier gypsum-salt seal; the strategic rationale is to fully characterize the fault-bound compartment, which, if sealed, represents a high-integrity storage unit, while the clear, mappable nature of the primary risk allows for a focused and de-risking work program.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_9",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_9",
+                "basin": "Tarim Basin",
+                "top_depth": 756.0,
+                "bottom_depth": 794.0,
+                "thickness": 39.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.8643,
+                "petrophysical_signatures": {
+                    "avg_GR": 68.603,
+                    "avg_RHOB": 2.402,
+                    "avg_NPHI": 0.168,
+                    "avg_PEF": 4.485,
+                    "avg_DTC": 67.371
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-Low\nReason: The machine learning prediction confidence of 0.8643 is strong, and the petrophysical log suite is internally consistent with a potential reservoir interval, indicated by a moderate neutron porosity (avg_NPHI: 0.168) and a corresponding bulk density (avg_RHOB: 2.402). However, the primary and critical constraint is volumetric capacity; the thickness proxy of 39.0 samples, translating to approximately 5.9 meters, falls significantly below the 65-sample (10-meter) baseline for adequate capacity and is flagged as a severe volumetric constraint, severely limiting the ultimate storage potential. Containment evaluation from the retrieved context is regionally favorable but introduces specific risks. The caprock system in the Tarim Basin, particularly Cambrian gypsum-salt rock, is evaluated as having strong sealing capacity when specific quantitative criteria are met [Source: Tarim Carbonate Caprock Study, Page: 14]. Conversely, the structural setting presents a moderate risk due to the documented presence of deep, reactivated strike-slip fault zones (e.g., No. 1, 5, 7) with multiple phases of activity from the Paleozoic to the Neogene, which could act as potential leakage pathways if they intersect the storage complex [Source: Central Tarim Thermal History, Page: 1, 11].\nRecommendation: Archive this target as a Tier-2 candidate due to its fundamental volumetric deficiency, which makes it non-viable as a primary storage site. The strong ML signal and favorable regional seal context, however, warrant its retention in the database for potential future re-evaluation in a stacked storage scenario or as an analog for nearby prospects. The immediate technical action is to prioritize 3D seismic interpretation focused on the precise mapping of the identified strike-slip fault zones relative to this specific depth interval to conclusively define the structural risk. Subsequently, petrophysical analysis should be expanded to adjacent well logs to determine if this thin interval is an isolated feature or part of a laterally connected, thicker fairway that could be captured in a different structural block.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_15",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_15",
+                "basin": "Tarim Basin",
+                "top_depth": 1148.0,
+                "bottom_depth": 1171.0,
+                "thickness": 24.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.8225,
+                "petrophysical_signatures": {
+                    "avg_GR": 71.962,
+                    "avg_RHOB": 2.449,
+                    "avg_NPHI": 0.166,
+                    "avg_PEF": 3.463,
+                    "avg_DTC": 70.436
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-Low\nReason: The machine learning prediction confidence of 0.8225 is strong, and the petrophysical log suite is consistent with a potential reservoir; the low GR (71.962 API) suggests a clean lithology, while the moderate NPHI (0.166 v/v) and low DTC (70.436 \u00b5s/ft) indicate fair porosity and competent rock. However, the primary disqualifying factor is severe volumetric constraint, as the 24.0-sample thickness proxy translates to approximately 3.66 meters, far below the 10-meter (65-sample) baseline for adequate capacity and even below the 30-sample threshold for a critical flag. Despite this, a containment risk assessment is mandated. The retrieved context indicates a generally favorable regional seal, with specific studies on Cambrian gypsum-salt caprock in the Tarim Basin establishing a quantitative evaluation system and identifying areas where sealing capacity is favorable [Source: Tarim Carbonate Caprock Study, Page: 1, 14]. Structural risk is elevated to moderate due to the documented presence of deep, reactivated strike-slip fault systems in the Central Tarim Basin, which experienced multiple phases of activity, including during the Neogene, posing a potential long-term leakage pathway [Source: Central Tarim Thermal History, Page: 1, 11].\nRecommendation: Archive this target as a non-viable primary reservoir due to its critically sub-economic thickness, which fundamentally limits storage capacity. However, given the strong ML signal and favorable regional caprock context [Source: Tarim Carbonate Caprock Study, Page: 14], the interval should be cataloged as a secondary component within a larger, stacked storage complex. The immediate action is to re-analyze the full well log suite to identify if this thin unit is part of a thicker, amalgamated reservoir section nearby. Strategically, this evaluation reinforces the need for high-resolution 3D seismic interpretation focused on fault characterization [Source: IPCC SRCCS, Page: 7] to de-risk the structural containment for any future targets in this area, ensuring a robust portfolio approach that separates volumetric suitability from seal integrity assessments.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_2",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_2",
+                "basin": "Tarim Basin",
+                "top_depth": 168.0,
+                "bottom_depth": 220.0,
+                "thickness": 53.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.8134,
+                "petrophysical_signatures": {
+                    "avg_GR": 66.187,
+                    "avg_RHOB": 2.437,
+                    "avg_NPHI": 0.194,
+                    "avg_PEF": 3.33,
+                    "avg_DTC": 77.827
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-Low\nReason: The machine learning prediction confidence of 0.8134 is strong, and the petrophysical log suite is internally consistent with a viable reservoir, indicated by a moderate GR (66.187 API) suggesting a mixed lithology, a favorable bulk density (2.437 g/cc), and a promising neutron porosity (0.194 v/v). However, the primary volumetric constraint is severe; a thickness proxy of 53.0 samples converts to approximately 8.1 meters, which is below the 10-meter (65-sample) baseline for adequate capacity and triggers a flag for severe volumetric limitation. Containment assessment from retrieved context is mixed but provides critical regional insights. Caprock integrity is strongly supported by studies of Cambrian gypsum-salt rocks in the Tarim Basin, which are evaluated for quantitative sealing capacity [Source: Tarim Carbonate Caprock Study, Page: 1, 11, 14]. Structural risk is elevated to moderate due to the documented presence of deep, reactivated strike-slip fault systems (e.g., No. 1, 5, 7 fault zones) with multiple phases of activity from the Paleozoic to Neogene, which could act as potential conduits for CO2 migration [Source: Central Tarim Thermal History, Page: 1, 11]. While the seal is regionally competent, the combination of a sub-critical reservoir thickness and the inherent uncertainty of fault seal integrity in a tectonically active basin significantly limits the site's standalone potential.\nRecommendation: Archive this target as a secondary or contingent storage unit rather than a primary candidate, due to its sub-economic thickness. The immediate technical action is to integrate this interval's petrophysical data into regional geological models to assess its potential contribution to a stacked storage complex. Strategically, the well data should be preserved, and the location should be noted for future high-resolution 3D seismic surveys aimed at precisely mapping the fault geometries identified in the regional context to de-risk containment for any larger-scale projects in the area. This approach aligns with the pre-screening philosophy of logging containment risks for future evaluation while prioritizing thicker intervals for primary development.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_20",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_20",
+                "basin": "Tarim Basin",
+                "top_depth": 1527.0,
+                "bottom_depth": 1599.0,
+                "thickness": 73.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.8124,
+                "petrophysical_signatures": {
+                    "avg_GR": 60.013,
+                    "avg_RHOB": 2.391,
+                    "avg_NPHI": 0.23,
+                    "avg_PEF": 3.172,
+                    "avg_DTC": 75.67
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Robust\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-High\nReason: The ML prediction confidence of 0.8124 is strong and is corroborated by favorable petrophysical properties: a low average GR of 60.013 API suggests a clean lithology, while an average NPHI of 0.23 and RHOB of 2.391 g/cc indicate promising reservoir porosity. The thickness proxy of 73 samples (~11.1 meters) exceeds the 65-sample baseline for adequate volumetric capacity, satisfying the >10m threshold noted in the literature [Source: Raza et al. 2016, Page: 6]. For containment, the retrieved context provides robust, region-specific evidence for a high-integrity seal, citing a \"thick succession of mudstones up to 950 m thick\" and specialized studies on Cambrian gypsum-salt caprock in the Tarim Basin, which establish a quantitative evaluation system for sealing capacity [Source: IPCC SRCCS, Page: 7] [Source: Tarim Carbonate Caprock Study, Page: 1]. However, a moderate structural risk is flagged due to the documented presence of deep, reactivated strike-slip fault zones (e.g., No. 1, 5, 7) with multiple phases of activity from the Paleozoic to the Neogene, which could provide potential leakage pathways if they intersect the storage complex [Source: Central Tarim Thermal History, Page: 1] [Source: Central Tarim Thermal History, Page: 11].\nRecommendation: Advance this target to the detailed characterization phase with a focused work program. Immediate steps must include acquiring high-resolution 3D seismic over the prospect to accurately map the geometry of the target interval and, critically, to delineate the precise location, geometry, and sealing nature of the deep strike-slip fault systems relative to the proposed containment structure. Concurrently, plan for coring and specialized core analysis (SCAL) to ground-truth the petrophysical interpretation and obtain direct measurements of relative permeability and geomechanical properties for containment assurance. The strong ML signal, adequate thickness, and evidence for a regionally proven seal justify this investment, with the explicit goal of de-risking the identified fault-related containment uncertainty through targeted data acquisition.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_4",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_4",
+                "basin": "Tarim Basin",
+                "top_depth": 334.0,
+                "bottom_depth": 403.0,
+                "thickness": 70.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.8084,
+                "petrophysical_signatures": {
+                    "avg_GR": 66.066,
+                    "avg_RHOB": 2.462,
+                    "avg_NPHI": 0.182,
+                    "avg_PEF": 3.203,
+                    "avg_DTC": 76.232
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Robust\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-High\nReason: The machine learning prediction confidence of 0.8084 is strong, and the petrophysical log suite is internally consistent with a viable reservoir: a moderate GR (66.066 API) suggests a mixed lithology, while the density (2.462 g/cc) and neutron porosity (0.182 v/v) crossover indicates potential effective porosity in a carbonate or sandstone interval, supported by a PEF value of 3.203. The thickness proxy of 70.0 samples, converting to approximately 10.7 meters, exceeds the 65-sample (10m) baseline for adequate volumetric capacity, mitigating a severe volumetric constraint. For containment, the retrieved context provides robust, region-specific evidence for a strong caprock, citing a quantitative evaluation of Cambrian gypsum-salt caprock in the Tarim Basin where a sealing capacity index (C) >2 indicates a favorable seal [Source: Tarim Carbonate Caprock Study, Page: 14]. However, structural risk is elevated to moderate due to the documented presence of deep, reactivated strike-slip fault zones (e.g., No. 1 fault zone active at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma) which could provide potential leakage pathways, especially given the tectonic history of hydrocarbon charging linked to these faults [Source: Central Tarim Thermal History, Page: 11]. The synergy of a confident ML prediction, adequate thickness, and a regionally proven strong seal justifies advancement, but the fault risk must be explicitly flagged.\nRecommendation: Advance Tarim_Target_4 to the next phase of detailed static modeling and dynamic simulation. The immediate next step is to acquire and interpret high-resolution 3D seismic data over the prospect area to precisely map the geometry of the target interval and, critically, to characterize the geometry, sealing nature, and recent activity of the identified deep strike-slip fault systems. Concurrently, plan for targeted coring and specialized core analysis (SCAL) within the 334-403m interval to ground-truth petrophysical interpretations and measure relative permeability and capillary entry pressure. The strategic justification for this investment is the high-confidence reservoir signature coupled with the presence of a regionally validated, high-quality gypsum-salt caprock; the fault risk, while non-negligible, is a quantifiable containment parameter that can be de-risked through focused seismic interpretation and fault seal analysis, rather than a fundamental disqualifier.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_3",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_3",
+                "basin": "Tarim Basin",
+                "top_depth": 226.0,
+                "bottom_depth": 265.0,
+                "thickness": 40.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.8036,
+                "petrophysical_signatures": {
+                    "avg_GR": 62.654,
+                    "avg_RHOB": 2.409,
+                    "avg_NPHI": 0.213,
+                    "avg_PEF": 3.23,
+                    "avg_DTC": 75.924
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-Low\nReason: The machine learning prediction confidence of 0.8036 is strong, and the petrophysical log suite is internally consistent with a porous, potentially viable reservoir; the low average GR (62.654 API) suggests a clean lithology, while the high average NPHI (0.213 v/v) and low average RHOB (2.409 g/cc) indicate favorable porosity development. However, the primary and severe constraint is volumetric capacity; at 40.0 log samples (approximately 6.1 meters), the interval falls significantly below the 65-sample (10-meter) baseline for adequate capacity and is flagged as a severe volumetric constraint, critically limiting its standalone storage potential. Containment assessment from retrieved context is regionally favorable but carries specific risks; caprock integrity is strongly supported by studies of thick Cambrian gypsum-salt sequences in the Tarim Basin, which are evaluated for sealing capacity [Source: Tarim Carbonate Caprock Study, Page: 1, 11, 14]. Structural risk is elevated to moderate due to the documented presence of deep, reactivated strike-slip fault systems in the Central Tarim Basin, which experienced multiple phases of activity, including during the Neogene, posing a potential long-term containment hazard [Source: Central Tarim Thermal History, Page: 1, 11].\nRecommendation: Archive this target as a non-standalone unit but flag it for potential integration into a stacked storage complex. The immediate technical action is to commission a high-resolution 3D seismic survey over the prospect area to precisely map the lateral continuity of this thin interval and critically, to characterize the geometry and sealing nature of the intersecting fault systems cited in the regional context. Concurrently, a core sampling and specialized petrophysical analysis program should be designed for any nearby wells to calibrate the porosity-permeability relationship and confirm the seal lithology. Strategically, this detailed evaluation preserves the target's data for future portfolio analysis where thin, high-porosity zones may contribute to aggregate capacity in a multi-layer injection scenario, ensuring no potential pore volume is prematurely discarded while honestly representing its significant inherent limitations.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_1",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_1",
+                "basin": "Tarim Basin",
+                "top_depth": 80.0,
+                "bottom_depth": 121.0,
+                "thickness": 42.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.783,
+                "petrophysical_signatures": {
+                    "avg_GR": 54.917,
+                    "avg_RHOB": 2.353,
+                    "avg_NPHI": 0.27,
+                    "avg_PEF": 3.352,
+                    "avg_DTC": 82.237
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-Low\nReason: The machine learning prediction confidence of 0.783 is moderately strong, indicating a viable reservoir signature, which is supported by favorable petrophysical averages including a low GR (54.9 API) suggesting clean lithology, a moderate density (2.35 g/cc), and a promising neutron porosity (0.27 v/v). However, the primary volumetric constraint is severe; a thickness proxy of 42.0 samples (~6.4 meters) is significantly below the 65-sample (~10m) baseline for adequate capacity and falls into the \"severe volumetric constraint\" category, critically limiting injectivity and total storage potential. Containment assessment from retrieved context is regionally favorable, citing a \"thick succession of mudstones up to 950 m thick\" as a top seal [Source: IPCC SRCCS, Page: 7] and specialized studies on Cambrian gypsum-salt caprock in the Tarim Basin which establish a quantitative framework for evaluating strong sealing capacity [Source: Tarim Carbonate Caprock Study, Page: 1, 14]. This is counterbalanced by a Moderate Structural Risk due to the documented presence of deep, reactivated strike-slip fault zones (e.g., No. 1 fault) with multiple phases of activity extending into the Neogene, which could provide potential leakage pathways [Source: Central Tarim Thermal History, Page: 1, 11].\nRecommendation: Archive this target for potential future re-evaluation in a stacked storage scenario but do not advance it as a primary candidate. The severe thickness constraint is a fundamental, project-scale limitation that cannot be mitigated. The immediate engineering step is to re-vector the pre-screening search to adjacent stratigraphic intervals with greater thickness potential, leveraging the positive regional seal context. Strategically, this target's data should be retained to build a comprehensive geological model of the area, informing fault risk assessments for future, thicker candidates identified nearby. Subsequent work must prioritize acquiring high-resolution 3D seismic over the structure to accurately map fault geometries and confirm seal continuity, as the regional evidence, while strong, requires local validation.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_18",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_18",
+                "basin": "Tarim Basin",
+                "top_depth": 1468.0,
+                "bottom_depth": 1494.0,
+                "thickness": 27.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7673,
+                "petrophysical_signatures": {
+                    "avg_GR": 72.028,
+                    "avg_RHOB": 2.455,
+                    "avg_NPHI": 0.182,
+                    "avg_PEF": 3.448,
+                    "avg_DTC": 74.657
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.7673 is moderate, indicating a plausible reservoir signature, which is supported by favorable petrophysical averages including a moderate neutron porosity (avg_NPHI: 0.182) and a density (avg_RHOB: 2.455 g/cc) suggestive of a porous lithology. However, the primary disqualifying factor is severe volumetric constraint; the thickness proxy of 27.0 samples translates to approximately 4.1 meters, which is significantly below the 10-meter (65-sample) baseline for adequate capacity and triggers the severe volumetric flag per the pre-screening protocol. Despite this volumetric limitation, the regional containment assessment is relevant for future targets. The retrieved context indicates the presence of a highly competent regional seal, specifically Cambrian gypsum-salt rock, with a quantitative sealing capacity evaluation (C-value) methodology established for the Tarim Basin [Source: Tarim Carbonate Caprock Study, Page: 1, 11]. Structural risk is elevated to Moderate due to the documented presence of deep, reactivated strike-slip fault systems (e.g., No. 1 fault zone) with multiple phases of activity from the Paleozoic to the Neogene, which could act as potential leakage pathways [Source: Central Tarim Thermal History, Page: 1, 11].\nRecommendation: This target is recommended for archival in the regional database but not for advancement in the current screening round due to its critical volumetric deficiency. The immediate engineering step is to re-analyze the well logs with a focus on identifying any adjacent, thicker porous intervals within the same structural closure that may have been mis-correlated. Strategically, this evaluation reinforces the importance of the Cambrian gypsum-salt seal integrity [Source: Tarim Carbonate Caprock Study, Page: 14] and the need for detailed fault mapping in this region. Future work should prioritize acquiring high-resolution 3D seismic over this structural trend to accurately define fault geometries and identify thicker reservoir units within the same proven seal domain, thereby converting this low-viability candidate into a validated lead.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_16",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_16",
+                "basin": "Tarim Basin",
+                "top_depth": 1313.0,
+                "bottom_depth": 1330.0,
+                "thickness": 18.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7646,
+                "petrophysical_signatures": {
+                    "avg_GR": 68.519,
+                    "avg_RHOB": 2.525,
+                    "avg_NPHI": 0.149,
+                    "avg_PEF": 2.779,
+                    "avg_DTC": 64.389
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.7646 is moderate, indicating a plausible reservoir signature, which is supported by petrophysical logs showing a low-density (avg_RHOB: 2.525 g/cc) and moderate-porosity (avg_NPHI: 0.149) interval consistent with a potential storage unit. However, the primary disqualifying factor is severe volumetric constraint; the thickness proxy of 18.0 samples translates to approximately 2.7 meters, far below the 65-sample (10m) baseline for adequate capacity and even below the 30-sample threshold for a severe flag, rendering it commercially non-viable for standalone storage. Despite this, a containment risk assessment based on retrieved context is required. Regional caprock evidence is strong, citing a \"thick succession of mudstones up to 950 m thick\" [Source: IPCC SRCCS, Page: 7] and specialized studies on Cambrian gypsum-salt caprock in the Tarim Basin which establish a quantitative sealing ability evaluation [Source: Tarim Carbonate Caprock Study, Page: 1]. Structural risk is moderate due to the documented presence of deep, reactivated strike-slip fault zones (e.g., No. 1 fault zone active at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma) [Source: Central Tarim Thermal History, Page: 1, 11], which could represent potential leakage pathways despite the robust regional seal.\nRecommendation: Archive Tarim_Target_16 as a non-viable primary storage candidate due to its critically sub-economic thickness, but retain its petrophysical and contextual data within the regional portfolio for future stratigraphic correlation and seal integrity studies. The immediate engineering step is to re-calibrate the ML pre-screening algorithm to more heavily penalize thickness proxies below 30 samples to improve future efficiency. Strategically, the strong caprock evidence [Source: Tarim Carbonate Caprock Study, Page: 1, 14] and detailed fault history [Source: Central Tarim Thermal History, Page: 1] for this area remain valuable; therefore, future exploration should focus on identifying thicker reservoir intervals within the same structural unit and beneath the same proven seal, utilizing high-resolution 3D seismic to map fault geometries and ensure they are not transmissive.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_19",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_19",
+                "basin": "Tarim Basin",
+                "top_depth": 1496.0,
+                "bottom_depth": 1508.0,
+                "thickness": 13.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7619,
+                "petrophysical_signatures": {
+                    "avg_GR": 69.817,
+                    "avg_RHOB": 2.508,
+                    "avg_NPHI": 0.157,
+                    "avg_PEF": 3.035,
+                    "avg_DTC": 69.518
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.7619 is moderate, indicating a plausible reservoir signature, which is supported by favorable petrophysical averages including a moderate neutron porosity (avg_NPHI: 0.157) and density (avg_RHOB: 2.508 g/cc) suggestive of a porous carbonate or sandstone interval. However, the primary and fatal pre-screening constraint is the severe volumetric deficiency; a thickness proxy of 13.0 samples translates to approximately 2.0 meters, which is drastically below the 65-sample (10m) baseline for adequate capacity and triggers a severe volumetric constraint flag, rendering it commercially non-viable for standalone storage. Despite this, a containment risk assessment based on regional context is mandated. The retrieved literature indicates the presence of a highly competent regional top seal described as \"a thick succession of mudstones up to 950 m thick\" [Source: IPCC SRCCS, Page: 7] and specifically evaluates the \"Cambrian gypsum-salt rock\" caprock in the Tarim Basin, establishing a quantitative sealing capacity index (C) [Source: Tarim Carbonate Caprock Study, Page: 1, 11, 14]. Structural risk is elevated to Moderate due to the documented presence of deep, reactivated strike-slip fault systems (e.g., No. 1 fault zone) with multiple phases of activity from the Paleozoic to Neogene, which could provide potential leakage pathways [Source: Central Tarim Thermal History, Page: 1, 11].\nRecommendation: This target is recommended for archival in the pre-screening database but not for advancement in the current CCS portfolio due to its critically sub-economic thickness. The immediate engineering step is to re-analyze the well logs for any potential uphole or downhole stratigraphic repetitions of this lithofacies within a thicker package. Strategically, the detailed caprock and fault analysis performed here validates the application of the regional containment model for this sector of the basin. Future work should prioritize the acquisition of high-resolution 3D seismic over this location to accurately map fault geometries and confirm the lateral continuity and integrity of the identified thick seal, ensuring these containment parameters are integrated into the evaluation of any thicker, volumetrically viable reservoirs identified nearby.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_17",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_17",
+                "basin": "Tarim Basin",
+                "top_depth": 1429.0,
+                "bottom_depth": 1434.0,
+                "thickness": 6.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7558,
+                "petrophysical_signatures": {
+                    "avg_GR": 61.686,
+                    "avg_RHOB": 2.19,
+                    "avg_NPHI": 0.33,
+                    "avg_PEF": 4.796,
+                    "avg_DTC": 98.687
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.7558 is moderate, indicating a plausible reservoir signature, which is supported by favorable petrophysical properties including low density (avg_RHOB: 2.19 g/cc) and high neutron porosity (avg_NPHI: 0.33), suggestive of a porous lithology. However, the primary and fatal pre-screening constraint is the grossly inadequate volumetric capacity; a thickness proxy of 6.0 samples translates to approximately 0.9 meters, which is a severe volumetric constraint and falls drastically below the 10-meter minimum threshold established for viable storage [Source: Raza et al. 2016, Page: 6]. Despite this disqualifying thickness, a containment risk assessment based on regional context is required. The retrieved literature indicates the presence of a thick, regionally extensive Cambrian gypsum-salt caprock in the Tarim Basin, with a quantitative sealing capacity evaluation (C-value) methodology confirming strong sealing ability in favorable areas [Source: Tarim Carbonate Caprock Study, Page: 11, Page: 14]. Nevertheless, the structural setting presents a moderate risk due to the documented presence of deep, multi-phase strike-slip fault zones (e.g., No. 1, 5, 7) which have experienced reactivation events, most recently during the Neogene, posing a potential long-term containment risk [Source: Central Tarim Thermal History, Page: 1, Page: 11].\nRecommendation: This target is recommended for archival in the pre-screening database under a \"Non-Viable Volumetric Capacity\" classification, with the detailed caprock and fault analysis retained for future regional seal integrity studies. The immediate engineering action is to reject Tarim_Target_17 for further detailed reservoir characterization, as its sub-1-meter thickness precludes any meaningful storage capacity regardless of other properties. Strategically, the analysis confirms the value of the regional seal but highlights the critical need to apply a strict thickness filter at the pre-screening stage to optimize resource allocation. Future work should focus on identifying thicker intervals within the same stratigraphic unit and caprock system, utilizing the confirmed seal integrity to de-risk other candidates while employing high-resolution 3D seismic to explicitly map and avoid the zones of fault influence identified in the regional context.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_7",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_7",
+                "basin": "Tarim Basin",
+                "top_depth": 600.0,
+                "bottom_depth": 685.0,
+                "thickness": 86.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7548,
+                "petrophysical_signatures": {
+                    "avg_GR": 57.483,
+                    "avg_RHOB": 2.43,
+                    "avg_NPHI": 0.229,
+                    "avg_PEF": 2.951,
+                    "avg_DTC": 79.624
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Robust\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-High\nReason: The ML prediction confidence of 0.7548 is moderate, supported by favorable petrophysical properties: a low average density (RHOB: 2.43 g/cc) and high neutron porosity (NPHI: 0.229) suggest a porous, likely carbonate or clean sandstone interval, while a moderate GR (57.483 API) indicates minimal clay content. The thickness proxy of 86 samples, translating to approximately 13.1 meters, exceeds the 65-sample (10m) baseline for adequate volumetric capacity, satisfying the threshold criteria from the literature [Source: Raza et al. 2016, Page: 6]. The primary containment strength lies in the regional seal context; the retrieved literature specifically details a quantitative evaluation system for Cambrian gypsum-salt caprock in the Tarim Basin, indicating this lithology is a known, studied seal with defined favorable parameters (C-value >2) [Source: Tarim Carbonate Caprock Study, Page: 14]. However, structural risk is elevated to Moderate due to the documented presence of deep, reactivated strike-slip fault zones (e.g., No. 1, 5, 7) with multiple phases of activity from the Paleozoic to Neogene, which could provide potential conduits for fluid migration if they intersect the storage complex [Source: Central Tarim Thermal History, Page: 1, 11].\nRecommendation: Advance this target to the detailed characterization phase with a focused work program to de-risk the identified structural uncertainty. Immediate steps should include acquiring high-resolution 3D seismic over the prospect area to accurately map the geometry of the target interval and, critically, to image the proximity and sealing nature of the deep strike-slip faults relative to the proposed containment structure. Concurrently, plan for targeted coring and specialized core analysis (SCAL) within the 600-685m interval to ground-truth petrophysical interpretations and obtain direct measurements of relative permeability and capillary entry pressure for the specific caprock, calibrating against the regional gypsum-salt seal model. The strategic justification for this investment is the combination of robust volumetric capacity and a regionally proven, high-integrity seal lithology, which presents a compelling containment foundation provided the fault-related risks can be sufficiently characterized and mitigated.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_10",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_10",
+                "basin": "Tarim Basin",
+                "top_depth": 946.0,
+                "bottom_depth": 959.0,
+                "thickness": 14.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7379,
+                "petrophysical_signatures": {
+                    "avg_GR": 83.844,
+                    "avg_RHOB": 2.299,
+                    "avg_NPHI": 0.203,
+                    "avg_PEF": 4.496,
+                    "avg_DTC": 67.448
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.7379 is weak, indicating a low-confidence identification of a viable reservoir facies. This is corroborated by the petrophysical log suite: the high average Gamma Ray (83.844 API) suggests a shaley or argillaceous lithology, while the moderate Neutron Porosity (0.203 v/v) and low Density (2.299 g/cc) are ambiguous and not strongly indicative of a clean, porous sandstone or carbonate reservoir. Critically, the thickness proxy of 14.0 samples (~2.1 meters) represents a severe volumetric constraint, falling far below the 65-sample (~10m) baseline for adequate capacity and the >10m threshold noted in screening criteria [Source: Raza et al. 2016, Page: 6]. Despite this fatal flaw for storage, regional containment assessment is required. The retrieved context indicates the presence of a thick, regionally extensive Cambrian gypsum-salt caprock in the Tarim Basin, with a quantitative sealing capacity evaluation (C-value) system established [Source: Tarim Carbonate Caprock Study, Page: 1, 11]. However, the Central Tarim has experienced multiple phases of strike-slip fault reactivation (~435-420 Ma, ~263-220 Ma, and 18-3 Ma) [Source: Central Tarim Thermal History, Page: 1, 11], introducing a persistent structural risk for containment that must be evaluated on a site-specific basis.\nRecommendation: Archive **Tarim_Target_10** from the primary reservoir candidate list due to its severe volumetric insufficiency. However, retain its geospatial tag and the associated caprock data within the regional containment risk database. The immediate action is to prioritize 3D seismic reprocessing or acquisition over this sector to explicitly map the geometry and seal integrity of the overlying Cambrian gypsum-salt layer and critically assess the proximity and sealing behavior of the deep strike-slip faults. This strategic move shifts focus from a non-viable reservoir to de-risking the regional containment framework, which is essential for evaluating other, thicker potential storage intervals within the same structural and stratigraphic compartment.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_13",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_13",
+                "basin": "Tarim Basin",
+                "top_depth": 1067.0,
+                "bottom_depth": 1121.0,
+                "thickness": 55.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.729,
+                "petrophysical_signatures": {
+                    "avg_GR": 57.091,
+                    "avg_RHOB": 2.409,
+                    "avg_NPHI": 0.247,
+                    "avg_PEF": 2.987,
+                    "avg_DTC": 81.397
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Medium-Low\nReason: The machine learning prediction confidence of 0.729 is moderate, indicating a plausible but uncertain reservoir candidate. This is supported by favorable petrophysical properties, including a low average density (RHOB: 2.409 g/cc) and high average neutron porosity (NPHI: 0.247), which are characteristic of a porous interval. However, the primary volumetric constraint is severe; the thickness proxy of 55.0 samples converts to approximately 8.4 meters, which is below the 10-meter (65-sample) baseline for adequate capacity and triggers a flag for limited storage potential. For containment, regional context indicates a strong caprock system, with specific reference to thick Cambrian gypsum-salt rock caprocks in the Tarim Basin evaluated for their sealing capacity [Source: Tarim Carbonate Caprock Study, Page: 11]. The primary containment risk is structural, as the retrieved context documents multiple phases of strike-slip fault activity (e.g., ~435-420 Ma, ~263-220 Ma) in the Central Tarim Basin [Source: Central Tarim Thermal History, Page: 1], which could compromise seal integrity despite a competent caprock. The depth (~1067m) is above the typical >800m threshold for supercritical CO2, adding a minor pressure-containment concern.\nRecommendation: Archive this target in the regional portfolio for potential future consideration in a stacked storage scenario but do not prioritize it for standalone development. The immediate engineering step is to acquire high-resolution 3D seismic over the prospect area to accurately map the local fault architecture and confirm the absence of shallow faulting that could intersect the target interval. Subsequently, a dedicated petrophysical re-evaluation of nearby wells should be conducted to search for thicker, correlative units. The strategic justification for archiving is that while the caprock evidence is strong, the severe volumetric limitation and inherent structural risks in the basin make it a suboptimal candidate compared to thicker, deeper targets, aligning with the pre-screening philosophy of flagging containment risks for human review without discarding the geological context.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_5",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_5",
+                "basin": "Tarim Basin",
+                "top_depth": 426.0,
+                "bottom_depth": 432.0,
+                "thickness": 7.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7046,
+                "petrophysical_signatures": {
+                    "avg_GR": 63.877,
+                    "avg_RHOB": 2.204,
+                    "avg_NPHI": 0.348,
+                    "avg_PEF": 4.333,
+                    "avg_DTC": 107.007
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.7046 is weak, indicating low algorithmic certainty in the target's reservoir properties, which is corroborated by the petrophysical log suite. The high average Gamma Ray (63.877 API) suggests a significant shale or clay content, while the very high average Neutron Porosity (0.348 v/v) and low bulk density (2.204 g/cc) are inconsistent with a competent sandstone or carbonate reservoir and may indicate a washed-out borehole or unconsolidated formation, severely undermining storage potential. Critically, the thickness proxy of 7.0 samples translates to approximately 1.07 meters, constituting a severe volumetric constraint that falls far below the 10-meter minimum threshold established in screening criteria [Source: Raza et al. 2016, Page: 6] and the 65-sample (10m) baseline for adequate capacity, rendering the interval commercially non-viable for storage regardless of other factors. However, per pre-screening protocol, regional containment is assessed: the retrieved context indicates the presence of a thick, regionally extensive Cambrian gypsum-salt caprock in the Tarim Basin, evaluated as having strong sealing capacity [Source: Tarim Carbonate Caprock Study, Page: 11, 14], but also notes multiple phases of strike-slip fault reactivation [Source: Central Tarim Thermal History, Page: 1, 11], introducing a moderate risk of containment breach that requires detailed fault mapping.\nRecommendation: This target is recommended for archival in the pre-screening database with a \"Low\" verdict due to its fatal volumetric deficiency and poor reservoir-indicative log response, which preclude it as a standalone storage complex. The immediate engineering action is to reject this specific interval but to preserve its depth-region context for future basin-scale seal integrity studies. The strategic justification is to prioritize resources on targets with sufficient thickness; however, the strong regional evidence for a competent gypsum-salt seal [Source: Tarim Carbonate Caprock Study, Page: 14] supports continued exploration in deeper, thicker intervals within the same structural unit, guided by high-resolution 3D seismic to delineate fault risks [Source: IPCC SRCCS, Page: 7] and targeted coring to validate caprock properties.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_12",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_12",
+                "basin": "Tarim Basin",
+                "top_depth": 1060.0,
+                "bottom_depth": 1064.0,
+                "thickness": 5.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.7046,
+                "petrophysical_signatures": {
+                    "avg_GR": 69.739,
+                    "avg_RHOB": 2.244,
+                    "avg_NPHI": 0.321,
+                    "avg_PEF": 5.431,
+                    "avg_DTC": 103.711
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.7046 is weak, indicating low algorithmic certainty in the target's reservoir properties, which is corroborated by the petrophysical log suite. The average Gamma Ray (GR) of 69.739 API suggests a shaly or tight lithology, while the high Neutron Porosity (NPHI) of 0.321 v/v, when considered with the Density (RHOB) of 2.244 g/cc, points to a potential lithology effect rather than effective porosity, severely challenging storage potential. Critically, the thickness proxy of 5.0 samples translates to approximately 0.76 meters, constituting a severe volumetric constraint that falls drastically below the 10-meter (\u224865 sample) baseline for adequate capacity, rendering the interval commercially non-viable for standalone storage. Despite this fatal flaw, a containment risk assessment based on retrieved context is required. Regional evidence indicates the presence of a thick, competent Cambrian gypsum-salt caprock in the Tarim Basin, with a quantitative sealing capacity evaluation (C-value) system established [Source: Tarim Carbonate Caprock Study, Page: 1, 11]. However, the basin has experienced multiple phases of strike-slip fault reactivation [Source: Central Tarim Thermal History, Page: 1, 11], introducing a moderate risk of creating potential leakage conduits that could compromise seal integrity over geological time, even for a thick regional seal.\nRecommendation: This target is recommended for archival in the pre-screening database under a \"Low Potential / High Risk\" category due to its fatal volumetric deficiency and weak ML confidence. No further reservoir-focused characterization (e.g., core analysis, well testing) is justified. However, the interval's log response should be cataloged to refine the ML training dataset for future shaly, non-reservoir intervals. Strategically, the evaluation confirms the regional presence of a high-integrity Cambrian gypsum-salt seal [Source: Tarim Carbonate Caprock Study, Page: 11], which is a positive finding for other, thicker reservoir candidates in the basin. Future work should prioritize acquiring high-resolution 3D seismic over broader areas to map the continuity of this excellent seal and identify deeper fault traces that pose a containment risk, thereby de-risking future, volumetrically viable targets identified in this geological setting.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_11",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_11",
+                "basin": "Tarim Basin",
+                "top_depth": 964.0,
+                "bottom_depth": 979.0,
+                "thickness": 16.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.6729,
+                "petrophysical_signatures": {
+                    "avg_GR": 81.117,
+                    "avg_RHOB": 2.426,
+                    "avg_NPHI": 0.191,
+                    "avg_PEF": 2.497,
+                    "avg_DTC": 71.824
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.6729 is weak, indicating low algorithmic certainty in the target's reservoir properties. This is corroborated by the petrophysical log suite; the high average Gamma Ray (81.117 API) suggests a significant shale or clay component, while the moderate Neutron Porosity (0.191 v/v) and Density (2.426 g/cc) are not definitive for high-quality reservoir rock. The primary disqualifying factor is severe volumetric constraint, as the 16.0-sample thickness proxy translates to approximately 2.4 meters, far below the 10-meter (65-sample) baseline for adequate capacity and the critical 30-sample (4.6m) threshold. Despite this fatal flaw, a containment risk assessment is mandated. The retrieved context indicates a regionally strong Cambrian gypsum-salt caprock system in the Tarim Basin, with a quantitative sealing capacity evaluation (C-value) methodology established [Source: Tarim Carbonate Caprock Study, Page: 1, 11]. However, the regional structural history is complex, with multiple phases of strike-slip fault activity (e.g., ~435-420 Ma, ~263-220 Ma, and 18-3 Ma) documented [Source: Central Tarim Thermal History, Page: 1, 11], introducing a moderate risk of undetected fault-related containment breaches at the target location, which lacks detailed local structural mapping.\nRecommendation: Archive Tarim_Target_11 in the pre-screening database with a \"Low Volumetric Potential, High Containment Priority\" flag. The immediate engineering step is to exclude this specific thin interval from further reservoir volumetric calculations. However, the overlying regional seal evidence is compelling; therefore, the strategic recommendation is to re-task the ML pre-screening algorithm to prioritize the identification of thicker potential reservoir intervals (\u226565 samples) within the same structural-stratigraphic framework that benefits from this proven Cambrian gypsum-salt caprock. Concurrently, initiate a fault reactivation study focused on the Permian and Neogene tectonic pulses for the broader area to de-risk future candidate storage complexes, leveraging the existing thermal and fault history context.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_8",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_8",
+                "basin": "Tarim Basin",
+                "top_depth": 688.0,
+                "bottom_depth": 693.0,
+                "thickness": 6.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.6068,
+                "petrophysical_signatures": {
+                    "avg_GR": 63.508,
+                    "avg_RHOB": 2.256,
+                    "avg_NPHI": 0.339,
+                    "avg_PEF": 4.657,
+                    "avg_DTC": 101.075
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Regional\nCaprock Evidence: Strong\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.6068 is weak, indicating low algorithmic certainty in the target's suitability, which is corroborated by ambiguous petrophysical signatures: a high average Gamma Ray (63.508 API) suggests significant shale/clay content, while the high Neutron Porosity (0.339) and low Density (2.256 g/cc) are atypical for a compact storage unit and may indicate poor rock quality or mud-rich lithology. Critically, the thickness proxy of 6.0 samples translates to approximately 0.9 meters, constituting a severe volumetric constraint that falls drastically below the 10-meter minimum threshold for viable capacity as established in screening criteria [Source: Raza et al. 2016, Page: 6]. Despite this fatal flaw for storage, regional containment assessment based on provided context is required. The caprock in the broader Tarim Basin, particularly Cambrian gypsum-salt sequences, is evaluated as having strong sealing capacity when specific quantitative criteria are met [Source: Tarim Carbonate Caprock Study, Page: 14]. However, the region exhibits a complex structural history with multiple phases of strike-slip fault reactivation [Source: Central Tarim Thermal History, Page: 1, 11], introducing a moderate risk of creating potential leakage conduits that must be evaluated on a site-specific basis.\nRecommendation: This target is recommended for archival in the pre-screening database with a \"Low\" priority flag due to its critically insufficient thickness, which precludes it from being a standalone storage reservoir. The immediate engineering step is to re-analyze the well logs for this depth interval to confirm the lithology and determine if the 6-sample interval is an isolated anomaly or part of a broader, non-reservoir facies. Strategically, while this specific interval is non-viable, the well location and the strong regional caprock evidence [Source: Tarim Carbonate Caprock Study, Page: 14] justify its retention in the database; future 3D seismic interpretation should focus on identifying thicker, seismically mappable reservoir units within the same structural closure that could utilize this documented seal, thereby transforming a low-potential target into valuable contextual data for a future, viable prospect.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        },
+        {
+            "interval_id": "Tarim_Target_14",
+            "ml_predictions": {
+                "interval_id": "Tarim_Target_14",
+                "basin": "Tarim Basin",
+                "top_depth": 1133.0,
+                "bottom_depth": 1137.0,
+                "thickness": 5.0,
+                "thickness_unit": "samples",
+                "average_confidence": 0.5981,
+                "petrophysical_signatures": {
+                    "avg_GR": 85.288,
+                    "avg_RHOB": 2.457,
+                    "avg_NPHI": 0.193,
+                    "avg_PEF": 3.045,
+                    "avg_DTC": 81.68
+                },
+                "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+            },
+            "evidence_confidence": "High",
+            "rag_geological_evaluation": "Evidence Type: Insufficient\nCaprock Evidence: Moderate\nStructural Risk Evidence: Moderate Risk\nScreening Verdict: Low\nReason: The machine learning prediction confidence of 0.5981 is weak, indicating low algorithmic certainty in the reservoir classification, which is not strongly corroborated by the petrophysical log suite. While the low density (avg_RHOB: 2.457 g/cc) and moderate neutron porosity (avg_NPHI: 0.193) are not disqualifying, the high gamma ray (avg_GR: 85.288 API) suggests a significant clay or shale content, compromising reservoir quality. The primary and fatal constraint is volumetric capacity; at 5.0 log samples (approximately 0.76 meters), the interval is severely sub-thin, falling far below the 65-sample (10m) baseline for adequate capacity and even the 30-sample severe constraint threshold, rendering it commercially non-viable for storage. Regarding containment, regional context indicates the presence of thick, competent Cambrian gypsum-salt caprock sequences in the Tarim Basin, which are systematically evaluated for sealing capacity [Source: Tarim Carbonate Caprock Study, Page: 1, 11]. However, the basin has experienced multiple phases of strike-slip fault reactivation [Source: Central Tarim Thermal History, Page: 1, 11], introducing a persistent, moderate risk of creating or re-activating conductive pathways that must be assessed on a local scale.\nRecommendation: This target is recommended for archival in the pre-screening database due to its critical volumetric deficiency, which cannot be overcome by engineering. The immediate action is to flag Tarim_Target_14 as a \"Low Volumetric Priority\" and exclude it from further reservoir-focused analysis. However, the stratigraphic data and contextual seal information should be retained to contribute to regional seal integrity mapping and fault risk models. Strategic justification for this action aligns with the pre-screening philosophy of efficiently filtering out non-starters to focus resources on intervals with fundamental geometric viability, while preserving the geological context for basin-scale containment risk assessments.",
+            "retrieved_evidence": [
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 1,
+                    "snippet": ". The results show that factors affecting the sealing capacity of Cambrian gypsum-salt caprock in the Tarim Basin can be summarized into three major c"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 1,
+                    "snippet": ". 1 strike- slip fault zone, which occurred at ~435-420 Ma, ~263-220 Ma, and 18-3 Ma, respectively, while the No. 5 and 7 strike-slip fault zones only"
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 5,
+                    "snippet": ". With the ocean basin closure around the Tarim plate during the Middle Ordovi- cian\u2014Devonian (Zhang et al., 2007), the Tarim Basin entered an A YJIX "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 11,
+                    "snippet": ". During the Permian, the Tarim Basin entered a crucial period of hydrocarbon generation and expulsion along with the reactivation of the strike-slip "
+                },
+                {
+                    "source": "Central Tarim Thermal History",
+                    "page": 3,
+                    "snippet": ". According to the characteristics of basement relief, stratigraphic sequence, and fault distribution, the platform-basin region of the Tarim Basin is"
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 7,
+                    "snippet": ". The field has been mapped with three-dimensional seismic and well data from the field. Deep faults have been mapped, but at shallower levels, the st"
+                },
+                {
+                    "source": "Raza et al. 2016",
+                    "page": 6,
+                    "snippet": ". Parameter Threshold Capacity >4 Mt for gas/oil and >2 Mt for aquifer Thickness reservoir >10m Depth top reservoir >800 m Reservoir porosity Reservoi"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 11,
+                    "snippet": "Energies 2022, 15, 7139 11 of 15 Table 7. Evaluation of sealing ability of Cambrian gypsum-salt rock type caprock in the Tarim Basin"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 2,
+                    "snippet": ". As a result, in an effort to address the issue of the multiplicity of factors affecting gypsum-salt caprock as well as the challenge of quantitative"
+                },
+                {
+                    "source": "Tarim Carbonate Caprock Study",
+                    "page": 14,
+                    "snippet": "Energies 2022, 15, 7139 14 of 15 The quantitative evaluation results of caprock from 14 wells in the study area show that the evaluation value (C) of "
+                },
+                {
+                    "source": "IPCC SRCCS",
+                    "page": 55,
+                    "snippet": ". Initial treatment of wells involves assigning a uniform NGCAS/ECL technology failures ongoing. Probabilistic risk assessment using fault tree and FE"
+                }
+            ]
+        }
+    ]
+}

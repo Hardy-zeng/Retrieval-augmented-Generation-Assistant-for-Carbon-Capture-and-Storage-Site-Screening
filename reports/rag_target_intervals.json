@@ -1,0 +1,344 @@
+{
+    "identified_ccs_targets": [
+        {
+            "interval_id": "Tarim_Target_1",
+            "basin": "Tarim Basin",
+            "top_depth": 80.0,
+            "bottom_depth": 121.0,
+            "thickness": 42.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.783,
+            "petrophysical_signatures": {
+                "avg_GR": 54.917,
+                "avg_RHOB": 2.353,
+                "avg_NPHI": 0.27,
+                "avg_PEF": 3.352,
+                "avg_DTC": 82.237
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_2",
+            "basin": "Tarim Basin",
+            "top_depth": 168.0,
+            "bottom_depth": 220.0,
+            "thickness": 53.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.8134,
+            "petrophysical_signatures": {
+                "avg_GR": 66.187,
+                "avg_RHOB": 2.437,
+                "avg_NPHI": 0.194,
+                "avg_PEF": 3.33,
+                "avg_DTC": 77.827
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_3",
+            "basin": "Tarim Basin",
+            "top_depth": 226.0,
+            "bottom_depth": 265.0,
+            "thickness": 40.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.8036,
+            "petrophysical_signatures": {
+                "avg_GR": 62.654,
+                "avg_RHOB": 2.409,
+                "avg_NPHI": 0.213,
+                "avg_PEF": 3.23,
+                "avg_DTC": 75.924
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_4",
+            "basin": "Tarim Basin",
+            "top_depth": 334.0,
+            "bottom_depth": 403.0,
+            "thickness": 70.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.8084,
+            "petrophysical_signatures": {
+                "avg_GR": 66.066,
+                "avg_RHOB": 2.462,
+                "avg_NPHI": 0.182,
+                "avg_PEF": 3.203,
+                "avg_DTC": 76.232
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_5",
+            "basin": "Tarim Basin",
+            "top_depth": 426.0,
+            "bottom_depth": 432.0,
+            "thickness": 7.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7046,
+            "petrophysical_signatures": {
+                "avg_GR": 63.877,
+                "avg_RHOB": 2.204,
+                "avg_NPHI": 0.348,
+                "avg_PEF": 4.333,
+                "avg_DTC": 107.007
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_6",
+            "basin": "Tarim Basin",
+            "top_depth": 473.0,
+            "bottom_depth": 535.0,
+            "thickness": 63.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.8728,
+            "petrophysical_signatures": {
+                "avg_GR": 65.558,
+                "avg_RHOB": 2.468,
+                "avg_NPHI": 0.154,
+                "avg_PEF": 3.911,
+                "avg_DTC": 69.208
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_7",
+            "basin": "Tarim Basin",
+            "top_depth": 600.0,
+            "bottom_depth": 685.0,
+            "thickness": 86.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7548,
+            "petrophysical_signatures": {
+                "avg_GR": 57.483,
+                "avg_RHOB": 2.43,
+                "avg_NPHI": 0.229,
+                "avg_PEF": 2.951,
+                "avg_DTC": 79.624
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_8",
+            "basin": "Tarim Basin",
+            "top_depth": 688.0,
+            "bottom_depth": 693.0,
+            "thickness": 6.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.6068,
+            "petrophysical_signatures": {
+                "avg_GR": 63.508,
+                "avg_RHOB": 2.256,
+                "avg_NPHI": 0.339,
+                "avg_PEF": 4.657,
+                "avg_DTC": 101.075
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_9",
+            "basin": "Tarim Basin",
+            "top_depth": 756.0,
+            "bottom_depth": 794.0,
+            "thickness": 39.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.8643,
+            "petrophysical_signatures": {
+                "avg_GR": 68.603,
+                "avg_RHOB": 2.402,
+                "avg_NPHI": 0.168,
+                "avg_PEF": 4.485,
+                "avg_DTC": 67.371
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_10",
+            "basin": "Tarim Basin",
+            "top_depth": 946.0,
+            "bottom_depth": 959.0,
+            "thickness": 14.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7379,
+            "petrophysical_signatures": {
+                "avg_GR": 83.844,
+                "avg_RHOB": 2.299,
+                "avg_NPHI": 0.203,
+                "avg_PEF": 4.496,
+                "avg_DTC": 67.448
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_11",
+            "basin": "Tarim Basin",
+            "top_depth": 964.0,
+            "bottom_depth": 979.0,
+            "thickness": 16.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.6729,
+            "petrophysical_signatures": {
+                "avg_GR": 81.117,
+                "avg_RHOB": 2.426,
+                "avg_NPHI": 0.191,
+                "avg_PEF": 2.497,
+                "avg_DTC": 71.824
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_12",
+            "basin": "Tarim Basin",
+            "top_depth": 1060.0,
+            "bottom_depth": 1064.0,
+            "thickness": 5.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7046,
+            "petrophysical_signatures": {
+                "avg_GR": 69.739,
+                "avg_RHOB": 2.244,
+                "avg_NPHI": 0.321,
+                "avg_PEF": 5.431,
+                "avg_DTC": 103.711
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_13",
+            "basin": "Tarim Basin",
+            "top_depth": 1067.0,
+            "bottom_depth": 1121.0,
+            "thickness": 55.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.729,
+            "petrophysical_signatures": {
+                "avg_GR": 57.091,
+                "avg_RHOB": 2.409,
+                "avg_NPHI": 0.247,
+                "avg_PEF": 2.987,
+                "avg_DTC": 81.397
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_14",
+            "basin": "Tarim Basin",
+            "top_depth": 1133.0,
+            "bottom_depth": 1137.0,
+            "thickness": 5.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.5981,
+            "petrophysical_signatures": {
+                "avg_GR": 85.288,
+                "avg_RHOB": 2.457,
+                "avg_NPHI": 0.193,
+                "avg_PEF": 3.045,
+                "avg_DTC": 81.68
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_15",
+            "basin": "Tarim Basin",
+            "top_depth": 1148.0,
+            "bottom_depth": 1171.0,
+            "thickness": 24.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.8225,
+            "petrophysical_signatures": {
+                "avg_GR": 71.962,
+                "avg_RHOB": 2.449,
+                "avg_NPHI": 0.166,
+                "avg_PEF": 3.463,
+                "avg_DTC": 70.436
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_16",
+            "basin": "Tarim Basin",
+            "top_depth": 1313.0,
+            "bottom_depth": 1330.0,
+            "thickness": 18.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7646,
+            "petrophysical_signatures": {
+                "avg_GR": 68.519,
+                "avg_RHOB": 2.525,
+                "avg_NPHI": 0.149,
+                "avg_PEF": 2.779,
+                "avg_DTC": 64.389
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_17",
+            "basin": "Tarim Basin",
+            "top_depth": 1429.0,
+            "bottom_depth": 1434.0,
+            "thickness": 6.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7558,
+            "petrophysical_signatures": {
+                "avg_GR": 61.686,
+                "avg_RHOB": 2.19,
+                "avg_NPHI": 0.33,
+                "avg_PEF": 4.796,
+                "avg_DTC": 98.687
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_18",
+            "basin": "Tarim Basin",
+            "top_depth": 1468.0,
+            "bottom_depth": 1494.0,
+            "thickness": 27.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7673,
+            "petrophysical_signatures": {
+                "avg_GR": 72.028,
+                "avg_RHOB": 2.455,
+                "avg_NPHI": 0.182,
+                "avg_PEF": 3.448,
+                "avg_DTC": 74.657
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_19",
+            "basin": "Tarim Basin",
+            "top_depth": 1496.0,
+            "bottom_depth": 1508.0,
+            "thickness": 13.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.7619,
+            "petrophysical_signatures": {
+                "avg_GR": 69.817,
+                "avg_RHOB": 2.508,
+                "avg_NPHI": 0.157,
+                "avg_PEF": 3.035,
+                "avg_DTC": 69.518
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        },
+        {
+            "interval_id": "Tarim_Target_20",
+            "basin": "Tarim Basin",
+            "top_depth": 1527.0,
+            "bottom_depth": 1599.0,
+            "thickness": 73.0,
+            "thickness_unit": "samples",
+            "average_confidence": 0.8124,
+            "petrophysical_signatures": {
+                "avg_GR": 60.013,
+                "avg_RHOB": 2.391,
+                "avg_NPHI": 0.23,
+                "avg_PEF": 3.172,
+                "avg_DTC": 75.67
+            },
+            "dominant_lithology": "Sandstone/Carbonate (Predicted Reservoir)"
+        }
+    ]
+}
