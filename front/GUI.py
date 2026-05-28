@@ -419,30 +419,33 @@ def call_deepseek_manual(basin, conf, thick, gr, rhob, nphi, pef, dtc, context_s
         "Content-Type": "application/json",
         "Authorization": "Bearer sk-c4972c3ebfae4c748195fccf12231d87"
     }
+    
     prompt = f"""You are a Principal Lead Geologist at an international energy corporation, specializing in Carbon Capture and Storage (CCS) site pre-screening.
 
 Your task is to produce a highly professional, evidence-aware technical evaluation for a candidate geological interval in the {basin}.
 
 ==================================================
 [UNIVERSAL SCREENING PHILOSOPHY]
-
 This is a PRE-SCREENING system:
-- Petrophysical quality and volumetric capacity determine reservoir potential
-- Geological containment risk (caprock + structure) determines viability
-- Safety and uncertainty must be explicitly acknowledged
+- Petrophysical quality and volumetric capacity determine reservoir potential.
+- Geological containment risk (caprock + structure) determines viability.
+- Safety and uncertainty must be explicitly acknowledged.
 
-If local basin-specific evidence is available → use it strictly  
-If local evidence is missing → DO NOT reject automatically  
-→ Instead, perform an "Analog-based" assessment using global standards (IPCC / IEAGHG), but clearly state limitations
+If local basin-specific evidence is available → use it strictly.
+If local evidence is missing → DO NOT reject automatically. Instead, perform an "Analog-based" assessment using global standards (IPCC / IEAGHG), but clearly state the limitations.
 
 ==================================================
-[THICKNESS HANDLING RULE — CRITICAL]
+[DUAL VETO POWER & ENGINEERING RULES — CRITICAL]
+You MUST act as a strict engineering guardrail. Do NOT compromise or average out critical failures.
 
-- Thickness is measured in LOG SAMPLES, NOT meters
-- Use approximation: meters ≈ samples / 65 × 10
-- Example: 70 samples ≈ ~10.8 meters (NOT 108 meters)
-- NEVER exaggerate thickness values
-- If uncertain → describe thickness as "adequate proxy thickness" instead of exact meters
+1. THICKNESS VETO (The RAG Guardrail):
+- Thickness is measured in LOG SAMPLES. Approximation: meters ≈ samples / 65 × 10.
+- VETO RULE: If Thickness is LESS THAN 15 samples (~2.3 meters), it is GEOLOGICALLY USELESS for commercial CCS injection, NO MATTER HOW HIGH the ML Confidence or porosity is.
+- IF TRIGGERED: Force "Screening Verdict" to "Low" or "Medium-Low". Explicitly state in the Reason that the severe lack of thickness overrides the AI's high prediction.
+
+2. PETROPHYSICS VETO (The Tight Rock Baseline):
+- VETO RULE: If ML Prediction Confidence is LESS THAN 0.30, the rock is inherently tight (e.g., mudstone/seal) with virtually zero storage capacity.
+- IF TRIGGERED: Force "Screening Verdict" to "Low" or "Medium-Low". Explicitly state in the Reason that the interval is rejected due to poor petrophysical quality.
 
 ==================================================
 INPUT DATA PROFILE
@@ -463,44 +466,34 @@ RETRIEVED GEOLOGICAL CONTEXT
 
 ==================================================
 [EVIDENCE & RISK RULES]
-
 1. Evidence Type:
-   - "Robust": Basin-specific geological evidence exists
-   - "Regional/Analog": Based on global CCS standards (no local data)
-   - "Insufficient": No meaningful context retrieved
+   - "Robust": Basin-specific geological evidence exists.
+   - "Regional/Analog": Based on global CCS standards (no local data).
+   - "Insufficient": No meaningful context retrieved.
 
 2. Risk Evaluation:
-   - With Robust evidence → evaluate directly
-   - With Analog evidence → assign **Moderate or High uncertainty risk**, NOT Low Risk
-   - NEVER assume "Low Risk" without basin-specific confirmation
-
-3. Uncertainty Requirement:
-   - If using Analog evidence → MUST explicitly state uncertainty
-   - Use phrases like:
-     "analog-based assessment", "lack of basin-specific verification", "requires validation"
+   - With Robust evidence → evaluate directly.
+   - With Analog evidence → assign Moderate or High uncertainty risk, NEVER Low Risk.
+   - IF ANY VETO APPLIES (<15 samples OR ML < 0.30) → MUST assign High Risk.
 
 ==================================================
-[SCREENING DECISION RULE]
-
-- High:
-  Requires strong ML + sufficient thickness + LOW structural risk WITH basin-specific evidence
-
-- Medium-High:
-  Strong ML + adequate thickness + moderate risk (can be analog-based but MUST state uncertainty)
-
-- Medium:
-  Moderate evidence OR analog-based evaluation with uncertainty
+[SCREENING DECISION RULE (STRICT LOGIC)]
+Evaluate strictly in this order:
 
 - Medium-Low / Low:
-  High risk OR insufficient evidence
+  Triggers THICKNESS VETO (<15 samples) OR triggers PETROPHYSICS VETO (ML < 0.30) OR High Risk. (NO EXCEPTIONS).
 
-- CRITICAL:
-  → Analog-only evaluation should NOT normally exceed "Medium-High"
-  → "High" requires basin-specific geological confirmation
+- Medium:
+  Moderate ML (0.30 - 0.60) AND Thickness >= 15 AND moderate uncertainty/analog evidence.
+
+- Medium-High:
+  Strong ML (>0.60) AND adequate thickness (>= 15) AND moderate risk (can be analog-based but MUST state uncertainty).
+
+- High:
+  Strong ML (>0.70) AND sufficient thickness (>30 samples) AND LOW structural risk WITH Robust basin-specific evidence.
 
 ==================================================
 [OUTPUT FORMAT – STRICT]
-
 Evidence Type: [Robust / Regional/Analog / Insufficient]
 Caprock Evidence: [Strong / Moderate / Weak]
 Structural Risk Evidence: [Low Risk / Moderate Risk / High Risk]
@@ -508,30 +501,32 @@ Screening Verdict: [High / Medium-High / Medium / Medium-Low / Low]
 
 Reason:
 (180–250 words)
-
 MUST include:
-1. Petrophysical + ML interpretation
-2. Thickness assessment (correctly handled)
-3. Explicit statement of evidence type (Robust vs Analog)
-4. Geological risk with citation [Source: ..., Page: X]
-5. Clear uncertainty if analog-based
+1. Petrophysical + ML interpretation.
+2. Thickness assessment (Apply explicit VETO if <15 samples).
+3. Explicit statement of evidence type (Robust vs Analog).
+4. Geological risk with citation (e.g., [Source: ..., Page: X]).
+5. If ML < 0.30, clearly state the rock is too tight for storage.
 
 Recommendation:
 (1–2 actionable engineering steps focused on validation, e.g., seismic / seal verification)
 """
-
+    
     payload = {
         "model": "deepseek-chat",
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.1
+        "messages": [
+            {"role": "system", "content": "You are a rigid, uncompromising geological AI engineering assistant."},
+            {"role": "user", "content": prompt}
+        ],
+        "temperature": 0.0  # 设置为0.0，消除所有随机性，让它严格执行规则
     }
-    
+
     try:
         response = requests.post(url, headers=headers, json=payload, timeout=30)
         response.raise_for_status()
         return response.json()['choices'][0]['message']['content']
     except Exception as e:
-        return f"Reason: Live API Connection Error.\nRecommendation: Please check network or API key status. Details: {str(e)}"
+        return f"LLM Generation Error: {str(e)}"
 
 def extract_probabilities(pred_df):
     candidates = ["1_probability", "target_1_probability", "class_1_probability", "prediction_probability", "probability"]
